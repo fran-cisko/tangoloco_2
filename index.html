@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/png">
+
+        <!--=============== REMIXICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        
+        <!--=============== SWIPER CSS ===============-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>TANGOLOCO</title>
+    </head>
+    <body>
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">TANGOLOCO<div class="nav__logo--sub">Daniel García Quinteto</div></a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link" data-section="nav" data-value="home">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#discover" class="nav__link" data-section="nav" data-value="music">Music</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link" data-section="nav" data-value="about">About</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#place" class="nav__link" data-section="nav" data-value="members">Members</a>
+                        </li>
+                    </ul>
+
+                    <div class="nav__dark">
+                        <!-- Theme change button -->
+                        <!-- <span class="change-theme-name">Dark mode</span>
+                        <i class="ri-moon-line change-theme" id="theme-button"></i> -->
+                    </div>
+                    <div class="flags" id="flags">
+                        <div class="flags__item" data-language="en">
+                            <img class="flags__img" src="./assets/img/flag_gb.svg"  alt="">
+                        </div>
+                        <div class="flags__item" data-language="es">
+                            <img class="flags__img" src="./assets/img/flag_es.svg"  alt="">
+                        </div>
+                    </div>
+
+                    <i class="ri-close-line nav__close" id="nav-close"></i>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-function-line"></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home" id="home">
+                <picture>
+                <source srcset="assets\img\home_celu_banda-junta-detraje-sintocar.png" media="screen and (max-width:480px)" class="home__img">
+                <img src="assets/img/tangoloco-banda_home.jpg" alt="" class="home__img">
+                </picture>
+
+                <div class="home__container  grid">
+                    <!--
+                    <div class="home__data">
+                        <span class="home__data-subtitle">Discover your place</span>
+                        <h1 class="home__data-title">Explore The <br> Best <b>Beautiful <br> Beaches</b></h1>
+                        <a href="#" class="button">Explore</a>
+
+                    </div>
+                    -->
+
+                    <div class="home__social">
+                        <a href="https://www.facebook.com/tangoloco.orquesta" target="_blank" class="home__social-link">
+                            <i class="ri-facebook-box-fill"></i>
+                        </a>
+                        <a href="https://www.instagram.com/danielgarcia.tangoloco/" target="_blank" class="home__social-link">
+                            <i class="ri-instagram-fill"></i>
+                        </a>
+                        <a href="https://www.youtube.com/c/TANGOLOCODANIELGARCIA" target="_blank" class="home__social-link">
+                            <i class="ri-youtube-fill"></i>
+                        </a>
+                        <a href="https://open.spotify.com/artist/6kFy4Ql2YEcpaElKcnBGkj?si=Ru0gJRUaRAO7WxntnKHLEQ" target="_blank" class="home__social-link">
+                            <i class="ri-spotify-fill"></i>
+                        </a>
+                    </div>
+                 
+                    <div class="home__info" >
+                        <a href="#last-show">
+                        <div>
+                            <span class="home__info-title" data-section="home" data-value="info-title">The new</span>
+                            <a href="#last-show" class="button button--flex button--link home__info-button" data-section="home" data-value="info-button">
+                                More <i class="ri-arrow-right-line"></i>
+                            </a>
+                        </div>
+                        </a>
+                 
+                        <a href="#last-show">
+                        <div class="home__info-overlay">
+                            <img src="assets/img/blackbird.jpg" alt="" class="home__info-img">
+                        </div>
+                    </div>
+                         </a>
+                </div>
+            </section>
+
+            <!--==================== Upcoming presentations ====================-->
+            <section class="experience section" id="last-show">
+                <h2 class="section__title">Upcoming presentations<br></h2>
+
+                <div class="experience__container container grid">
+                        
+                    <div class="experience__img grid" name="last-show">
+                        <a href="https://www.facebook.com/tangoloco.orquesta" target="__blank">
+                        <div class="experience__overlay">
+                            <img src="assets/img/julia zenco horizontal.jpeg" alt="" class="experience__img-one">
+                            <!--  <span>Listen to it on Spotify </span>-->
+                        </div>
+                        
+                        <div class="experience__overlay">
+                            <img src="assets/img/julia_zenco_cuadrada.jpeg" alt="" class="experience__img-two">
+                        </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="presentation__description" >
+
+                    <ul >
+                        <li><span class="presentation__date">23/7/22 </span>Festival de la Falda , Córdoba , Tangoloco Quinteto.</li>
+                        <li><span class="presentation__date">1/9/22</span> Tasso de Bs As , Julia Zenko & Tangoloco Trío.</li>
+                        <li><span class="presentation__date">8/10/22</span> Catena , Necochea. Tangoloco 5teto 20 años! </li>
+                        <li><span class="presentation__date">13/10/22</span> Café Berlín Bs As. Tangoloco 5teto 20 años!</li>
+                    </ul>
+                </div>
+            </section>
+           
+           
+            <!--==================== DISCOVER Albums ====================-->
+            <section class="discover" id="discover">
+                <h2 class="section__title" data-section="music" data-value="discography">Discography <br> and Youtube Channel</h2>
+                
+                <div class="discover__container container swiper-container">
+                    <div class="swiper-wrapper">
+
+                        <!--==================== DISCOVER 6 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <a href="https://www.youtube.com/watch?v=nG36Sj40u2c&list=OLAK5uy_mPekIyIi-X9HsDpWU3XJFW_fzLEP3_rwg" target="_blank" >
+                            <img src="assets/img/tango negro tapa.png" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h4 class="discover__title"></h4>
+                                <span class="discover__description">TANGO NEGRO</span>
+                            </div>
+                            </a>
+                        </div>
+                        <!--==================== DISCOVER 1 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <a href="https://www.youtube.com/watch?v=_0GVC5ymjYQ&feature=youtu.be" target="_blank" >
+                            <img src="assets/img/rock-en-2x4.jpg" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h4 class="discover__title"></h4>
+                                <span class="discover__description">ROCK EN 2 x 4</span>
+                            </div>
+                            </a>
+                        </div>
+
+                        <!--==================== DISCOVER 2 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <a href="https://youtube.com/playlist?list=PLdL9XIBvHLawOC7wGW6Xfrax851Z912K6" target="_blank">
+                            <img src="assets/img/TANGOS DE LIVERPOOL.jpg" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h4 class="discover__title"></h4>
+                                <span class="discover__description">TANGOS DE LIVERPOOL</span>
+                            </div>
+                            </a>
+                        </div>
+
+                        <!--==================== DISCOVER 3 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <a href="https://www.youtube.com/watch?v=STIuzmckFs8&list=OLAK5uy_lbI_WmuiSsG6-K2tZXDnPGApHeIEjA_yY" target="_blank">
+                            <img src="assets/img/tapa TANGOS DEL MUNDO.jpg" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h4 class="discover__title"></h4>
+                                <span class="discover__description">TANGOS DEL MUNDO</span>
+                            </div>
+                            </a>
+                        </div>
+
+                        <!--==================== DISCOVER 4 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <a href="https://www.youtube.com/watch?v=n2JHPjhdTps&list=OLAK5uy_mXQjV8nOOvEeHlI670W7LyGoIXsHw0ZWc" target="_blank" >
+                            <img src="assets/img/TANGOLOCO-099 CENTRAL.jpg" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h4 class="discover__title"></h4>
+                                <span class="discover__description">099 CENTRAL</span>
+                            </div>
+                            </a>
+                        </div>
+                        <!--==================== DISCOVER 5 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <a href="https://www.youtube.com/watch?v=lK3BCkhtC_w&list=OLAK5uy_mzUMSDFl3JVChP9N0bDfPA8IDzBccnDlU" target="_blank" >
+                            <img src="assets/img/online1200x1200bf-60.jpg" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h4 class="discover__title"></h4>
+                                <span class="discover__description">ON LINE</span>
+                            </div>
+                            </a>
+                        </div>
+                         <!--==================== DISCOVER 6 En vivo ====================-->
+                         <div class="discover__card swiper-slide">
+                            <a href="https://open.spotify.com/album/667DBRsAgQpyo11BSRyOwY?si=k5uxFWNVRQOvJLMu-jLTTg&utm_source=whatsapp&nd=1" target="_blank" >
+                            <img src="assets\img\tangoloco-envivo.png" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h4 class="discover__title"></h4>
+                                <span class="discover__description">En Vivo</span>
+                            </div>
+                            </a>
+                        </div>
+                      
+                    </div>
+                </div>
+            </section>
+            <!--==================== VIDEO Youtube Chanel ====================-->
+            <section class="video section">
+                <h2 class="section__title" data-section="music" data-value="youtube-channel">Youtube Channel</h2>
+
+                <div class="video__container container">
+                    <p class="video__description"  data-section="youtube-chanel" data-value="youtube-chanel__description">
+                        TANGO / FUSION . TANGOLOGO PLAY BEATLES FUSIONED WITH  TANGO MUSIC . ANOTHER STYLES AND ORIGINAL COMPOSITIONS WITH THE SOUL OF BUENOS AIRES. WITHOUT LIMITS !
+                    </p>
+
+                    <div class="youtube-video">
+                        <iframe class="youtube-video__responsive" src="https://www.youtube.com/embed/ElEoa_-6myw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <!--
+                    <div class="video__content">
+                        <video id="video-file">
+                            
+                            <source src="assets/video/video.mp4" type="video/mp4">
+                        </video>
+
+                        <button class="button button--flex video__button" id="video-button">
+                            <i class="ri-play-line video__button-icon" id="video-icon"></i>
+                        </button>
+                    </div>
+                    -->
+                </div>
+            </section>
+             <!--==================== ABOUT ====================-->
+             <section class="about section" id="about">
+                <h2 class="section__title " data-section="about" data-value="title">About <br>TANGOLOCO - DANIEL GARCIA QUINTETO<br></h2>
+                <br>
+                <div class="about__container ">
+                    <div >
+                        
+                        <div data-section="about" data-value="foto1" class="about__description">
+                           This formation was born in 2002, created by Daniel C. Garcia, an argentinean music arranger, pianist and composer. Tangoloco emerges from the success obtained by a composition for a Tv show, 099 Central, creating a sound by making a fusion of Tango, rock and jazz.<br>Daniel García travelled all over the world as a music arranger and composer. He is known by his work with Julia Zenko, Mercedes Sosa, Victor Manuel, Pedro Aznar, Abel Pintos, Lito Vitale, Ruben Rada , Leon Gieco and the famous cellist Yo Yo Ma among other artists.<br>In 1994 he received the Martin Fierro award for the music of the song “Con las alas del alma”, who shared with Eladia Blazquez. In 2003 he was nominated to the same award for the work of “099 central”.<br> 
+                        </div>  
+                    </div>
+                    <div>   
+                        <figure class="about__figure">
+                             <img class="about__img" src="assets/img/TANGOLOCO-099 CENTRAL.jpg" alt="" srcset="">
+                        </figure>
+                    </div> 
+                    <div>   
+                        <figure class="about__figure">
+                             <img class="about__img"src="assets/img/TANGOS DE LIVERPOOL.jpg" alt="" srcset="">
+                        </figure>
+                    </div> 
+                    <div data-section="about" data-value="foto2" class="about__description">    
+                        In 2004 they released “Tangos de Liverpool”,fusioning the most beautiful melodies of The BEATLES with Tango.<br>     
+                        “Tangos de Liverpool” was presented in several countries of Latin America, also in 2005, at the Helsinki Festival of Finland.<br>In Argentina they presented their work in Buenos Aires at the Teatro San Martin and at the ND Ateneo. During 2004, they shared the stage with the famous dancer Maximiliano Guerra at the Teatro Opera.<br> In 2005 they made continuous tours with Maria Volonté, who with, in 2006, they released an album titled “I am Maria - Maria Volonté / Tangoloco Quinteto”.<br>
+        
+                    </div>
+                
+                  
+                    <div>   
+                        <figure class="about__figure">
+                            <img class="about__img--left" src="assets/img/rock-en-2x4.jpg" alt="" srcset="">
+                       </figure>
+                    </div>
+                    <div data-section="about" data-value="foto3" class="about__description">
+                        The 3rd album of Tangoloco is “Rock en 2x4” with national rock classics fusioned with tango. Special guests were invited to participate: Ruben Rada, Pablo Ziegler, Cabernet, Maria Volonte and Guillermo Fernandez.<br><br>  In 2008, Tangoloco realeases an album with a live show at Velma café, which reunited the most popular singles of the band, with special guests like Patricia Sosa. This work was nominated to Gardel awards. During this year, the band travelled all over Latinoamerican countries including Mexico, Perú, Ecuador and Chile.<br>At 2010 they released in Argentina and Japan simultaneously “Tangos del mundo” with a Japanese singer, Anna Saeki. This album included Sting, Abba, Queen and Broadway songs, but with the sound of the 2x4, milonga and candombe.<br> They played this album through 11 cities in Japan, between November and December of 2010.
+                    </div>
+                    <div data-section="about" data-value="foto4" class="about__description "><!--class="about__1fr"-->
+                        In 2011 Daniel was in charge of composing the original ballet music “Ivan el Terrible” for Maximiliano Guerra, premiered at the Auditorium of Mar del Plata in January 2012.<br>   During August of 2012, “Tangoloco 10 años” was the show presented along 3 months at the Velma café in Palermo Hollywood with special guests: Ligia Piro, Noelia Moncada,
+                    </div>
+                    <div data-section="about" data-value="foto5" class="about__description">
+                        Bruno Arias,Lito Vitale, Opus 4, Silvia Iriondo, Ariel Ardit, Raul Lavie, Horacio Ferrer, Guillermo Fernandez, Valeria Lynch, Patricia Sosa, Sandra Luna and Juan Darthes among others.
+                        In June of 2012 they made a tour through the North of the country culminating in the “Festival of the great homeland” in Salta, for an audience of 30,000 people.
+                    </div>
+                    <div data-section="about" data-value="foto6" class="about__description">
+                        In 2013 they released their 6th album: “Tangoloco Online”, which reunited all original songs composed by the members of the quintet. The album was presented  in Buenos Aires during 4 dates at the Velma café.<br>Tangoloco had their 2nd tour to Japan with Anna Saeki in 2014. For almost 20 days they played at the most important cities of the country. Later that year, they were presented at the Tango Festival of “Justo Daract” in San Luis.<br>   The quintet was nominated to the Gardel awards in 2005. In july of 2015, Tangoloco played at <a href="https://www.telam.com.ar/notas/201507/114187-tangoloco-festival-tango-la-falda.html" target="_blank">the Tango Festival of La Falda</a>. They were presented as “The Tango bulldozer”.<br>In September of 2015, they premiered at the Teatro Coliseo in Buenos Aires with Maximiliano Guerra's company. The musical direction of “Quereme Asi Piantao“, was on charge of Daniel García and it was dedicated to the great Horacio Ferrer.<br>
+                    </div>
+                    <div>   
+                        <figure class="about__figure">
+                            <img class="about__img--left" src="assets/img/online1200x1200bf-60.jpg" alt="" srcset="">
+                       </figure>
+                    </div>
+                    <div>   
+                        <figure class="about__figure">
+                            <img class="about__img--left" src="assets/img/tango negro tapa.png" alt="" srcset="">
+                       </figure>
+                    </div>
+
+                    <div data-section="about" data-value="foto7" class="about__description">
+                        During 2016 they performed at the 1st Festival of Necochea, “La ruta del Tango“ with great success. Later that year they travelled to the International Festival of Medellin, Colombia, and made 2 performances, one of them with Raul Lavie. <br>In 2017 they started a national tour with their new material: “Tango Negro“. This is their first orchestra album. It was released after a year of work, and reunited 25 musicians, string orchestra, brass and special guest singers : Raul Lavié, Jorge Vazquez, Laura G.Zenko, Dany Dorf , Savia , Rubén Rada.<br>“Tango Negro” includes the best known performers and authors of black music such as Duke Ellintong, Michael Jackson, Artetha Franklin, Gloria Gaynor, Barry White, Stevie Wonder and many others, fusioned with Mores, Fresedo, Troilo, Piazzolla, Canaro and Filiberto. It was published by Aqcua records in April of 2018.<br>They permormed in all G20 events held by the Presidency of the Nation during February 2018
+                    </div>
+
+                    <!-- <div class="about__img">
+                        <div class="about__img-overlay">
+                            <img src="assets/img/about_images/image2.jpg" alt="" class="about__img-one">
+                        </div>
+
+                        <div class="about__img-overlay">
+                            <img src="assets/img/about_images/image11.jpg" alt="" class="about__img-two">
+                        </div>
+                    </div> -->
+                    <!-- <div class="about__history">
+                        <div data-section="about" data-value="foto1"></div>
+                    </div> -->
+                </div>
+            </section>
+            
+
+            <!--==================== EXPERIENCE ====================-->
+            <section class="experience section" id="last-show">
+                <h2 class="section__title">Tangos de Liverpool 2<br> Blackbird</h2>
+
+                <div class="experience__container container grid">
+                   
+                    <!-- <div class="experience__content grid">
+                        <div class="experience__data">
+                            <h2 class="experience__number">20</h2>
+                            <span class="experience__description">Year <br> Experience</span>
+                        </div>
+
+                        <div class="experience__data">
+                            <h2 class="experience__number">75</h2>
+                            <span class="experience__description">Complete <br> tours</span>
+                        </div>
+
+                        <div class="experience__data">
+                            <h2 class="experience__number">650+</h2>
+                            <span class="experience__description">Tourist <br> Destination</span>
+                        </div>
+                    </div> -->
+
+                    <div class="experience__img grid" name="last-show">
+                        <a href="https://open.spotify.com/track/4WDI1C0m43sNeayJiPGyJ4?si=a7f1c9a5d3da4593" target="__blank">
+                        <div class="experience__overlay">
+                            <img src="assets/img/blackbird.jpg" alt="" class="experience__img-one">
+                            <span>Listen to it on Spotify </span>
+                        </div>
+                     
+                        <div class="experience__overlay">
+                            <img src="assets/img/blackbird_cuadrada.jpg" alt="" class="experience__img-two">
+                        </div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            
+
+            <!--==================== MEMBERS ====================-->
+            <section class="place section" id="place">
+                <h2 class="section__title" data-section="members" data-value="title" >Members</h2>
+
+                <div class="place__container container grid">
+                    <!--====================  CARD 1 ====================-->
+                    <div class="place__card">
+                        <img src="assets/img/image1.jpg" alt="" class="place__img">
+                        
+                        <div class="place__content">
+                           
+                            <!-- <span class="place__rating">
+                                <i class=""></i>
+                                <span class="place__rating-number"></span>
+                            </span> -->
+                            <div class="place__data">
+                                <h4 class="place__title">DANIEL GARCIA</h4>
+                                <span class="place__subtitle">Piano , Musical Arrangements and Direction</span>
+                                <!--<span class="place__price"></span>-->
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!--====================  CARD 2 ====================-->
+                    <div class="place__card">
+                        <img src="assets/img/image3.jpg" alt="" class="place__img">
+                        
+                        <div class="place__content">
+                            <span class="place__rating">
+                                <i class=""></i>
+                                <span class="place__rating-number"></span>
+                            </span>
+
+                            <div class="place__data">
+                                <h3 class="place__title">HORACIO“MONO”HURTADO 
+                                    </h3>
+                                <span class="place__subtitle">Acoustic Double Bass</span>
+                                <!--<span class="place__price"></span>-->
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!--====================  CARD 3 ====================-->
+                    <div class="place__card">
+                        <img src="assets/img/image4.jpg" alt="" class="place__img">
+                        
+                        <div class="place__content">
+                            <span class="place__rating">
+                                <i class=""></i>
+                                <span class="place__rating-number"></span>
+                            </span>
+
+                            <div class="place__data">
+                                <h3 class="place__title">WALTHER CASTRO</h3>
+                                <span class="place__subtitle">Bandoneon</span>
+                               
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--==================== CARD 4 ====================-->
+                    <div class="place__card">
+                        <img src="assets/img/image5.jpg" alt="" class="place__img">
+                        
+                        <div class="place__content">
+                            <span class="place__rating">
+                                <i class=""></i>
+                                <span class="place__rating-number"></span>
+                            </span>
+
+                            <div class="place__data">
+                                <h3 class="place__title">
+                                    C.COLAIZZO 
+                                    </h3>
+                                <span class="place__subtitle">Drums and Percussion</span>
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--====================  CARD 5 ====================-->
+                    <div class="place__card">
+                        <img src="assets/img/image6.jpg" alt="" class="place__img">
+                        
+                        <div class="place__content">
+                            <span class="place__rating">
+                                <i class=""></i>
+                                <span class="place__rating-number"></span>
+                            </span>
+
+                            <div class="place__data">
+                                <h3 class="place__title">HORACIO MONTESANO
+                                    </h3>
+                                <span class="place__subtitle">Electric and acoustic guitars</span>
+                                <!--<span class="place__price"></span>-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== SUBSCRIBE ====================-->
+             <!--
+            <section class="subscribe section">
+                <div class="subscribe__bg">
+                    <div class="subscribe__container container">
+                        <h2 class="section__title subscribe__title" data-section="form" data-value="title">Contact Us <br> </h2>
+                        <p class="subscribe__description">Subscribe to our newsletter and get a 
+                            special 30% discount.
+                        </p> 
+  
+                        <form action="" class="subscribe__form">
+                            <input type="text" placeholder="Enter email" class="subscribe__input">
+    
+                            <button class="button">
+                                Subscribe
+                            </button>
+                        </form>
+    
+                    </div>
+                </div>
+            </section>
+            -->
+            
+            <!--==================== SPONSORS ====================-->
+           <!--
+            <section class="sponsor section">
+                <div class="sponsor__container container grid">
+                    <div class="sponsor__content">
+                        <img src="assets/img/sponsors1.png" alt="" class="sponsor__img">
+                    </div>
+                    <div class="sponsor__content">
+                        <img src="assets/img/sponsors2.png" alt="" class="sponsor__img">
+                    </div>
+                    <div class="sponsor__content">
+                        <img src="assets/img/sponsors3.png" alt="" class="sponsor__img">
+                    </div>
+                    <div class="sponsor__content">
+                        <img src="assets/img/sponsors4.png" alt="" class="sponsor__img">
+                    </div>
+                    <div class="sponsor__content">
+                        <img src="assets/img/sponsors5.png" alt="" class="sponsor__img">
+                    </div>
+                </div>
+            </section>
+            -->
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer section">
+            <div class="footer__container container grid">
+                <div class="footer__content grid">
+                    <div class="footer__data">
+                        <h3 class="footer__title">Tangoloco - Daniel García Quinteto</h3>
+                        <p class="footer__description">Seguinos en nuestras <br> resdes sociales <br> 
+                        </p>
+                        <div>
+                            <a href="https://www.facebook.com/tangoloco.orquesta" target="_blank" class="footer__social">
+                                <i class="ri-facebook-box-fill"></i>
+                            </a>
+                       
+                            <a href="https://www.instagram.com/danielgarcia.tangoloco/" target="_blank" class="footer__social">
+                                <i class="ri-instagram-fill"></i>
+                            </a>
+                            <a href="https://www.youtube.com/c/TANGOLOCODANIELGARCIA" target="_blank" class="footer__social">
+                                <i class="ri-youtube-fill"></i>
+                            </a>
+                            <a href="https://open.spotify.com/artist/6kFy4Ql2YEcpaElKcnBGkj?si=Ru0gJRUaRAO7WxntnKHLEQ" target="_blank" class="footer__social">
+                                <i class="ri-spotify-fill"></i>
+                            </a>
+                        </div>
+                    </div>
+    
+                    <div class="footer__data">
+                        <!-- <h3 class="footer__subtitle">About</h3>
+                        <ul>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">About Us</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Features</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">New & Blog</a>
+                            </li>
+                        </ul>
+                    </div> -->
+    
+                    <!-- <div class="footer__data">
+                        <h3 class="footer__subtitle">Company</h3>
+                        <ul>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Team</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Plan y Pricing</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Become a member</a>
+                            </li>
+                        </ul>-->
+                    </div>
+    <!--
+                    <div class="footer__data">
+                        <h3 class="footer__subtitle">Support</h3>
+                        <ul>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">FAQs</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Support Center</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div> -->
+<!--            
+<div>
+
+    <iframe src="250-milliseconds-of-silence.mp3" allow="autoplay" id="audio" style="display: none"></iframe>
+
+<audio id="myAudio" loop="loop" autoplay  controls="controls"  >
+<source src="assets/audio_tangoloco.mp3" type="audio/mp3" />
+</audio>
+
+<script>
+  let audio = document.getElementById("myAudio");
+ audio.volume = 0.2;
+
+ //para chrome pero no estaría funcionando
+//    window.onload = function(){
+//        document.audio.play();
+//    }
+
+//    var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
+//    if (!isChrome){
+//        $('#iframeAudio').remove()
+//    }
+//    else {
+//        $('#playAudio').remove() // just to make sure that it will not have 2x audio in the background 
+//    }
+
+ </script>
+</div> --> 
+                <div class="footer__rights">
+                    <p class="footer__copy">&#169; 2022 developed by Francisco Sciarretta</p>
+                    <div class="footer__terms">
+                        <!--
+                        <a href="#" class="footer__terms-link">Terms & Agreements</a>
+                        <a href="#" class="footer__terms-link">Privacy Policy</a>
+                        -->
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+         <!--========== SCROLL UP ==========-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="ri-arrow-up-line scrollup__icon"></i>
+        </a>
+
+        <!--=============== SCROLL REVEAL===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+        
+        <!--=============== SWIPER JS ===============-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>

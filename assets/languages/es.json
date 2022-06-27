@@ -1,0 +1,46 @@
+{
+    "nav":{
+        "home": "Inicio",
+        "music": "Música",
+        "about": "Conócenos",
+        "members": "Integrantes"
+    },
+ 
+    "home":{
+    "info-title": "Lo nuevo",
+    "info-botton": "Más"
+    },
+
+    "music":{
+    "discography": "Discografía <br>",
+    "youtube-channel":"Canal de Youtube"
+    },
+
+
+    "about":{
+        "title": "Nosotros <br>TANGOLOCO - DANIEL GARCIA QUINTETO",
+        "foto1":"Su trayectoria a nivel nacional e internacional como arreglador y compositor , destacan los 10 cds realizados para la cantante Julia Zenko , y trabajos junto a  Mercedes Sosa ,  Victor Manuel , Pedro Aznar , Lito Vitale , Ruben Rada , Leon Gieco , Maria Jose Demare , Ruben Juarez , Lisette y el gran cellista  Yo Yo Ma  entre otros artistas .<br>Daniel Garcia  fue ganador del MARTIN FIERRO por su cancion “Con las alas del alma“ con textos de Eladia Blazquez en 1994 y ternado para los mismos por “099 central”( 2003) , tema instrumental de su autoría. Sus temas en el mercado latino fueron grabados por artistas como Paloma San Basilio, Daniela Romo, Cristian Castro, Thalia y otros.<br>",
+        "foto2":" Creador y Director musical del quinteto TANGOLOCO edita el primer Cd en el 2002 con invitados de lujo como el guitarrista Luis Salinas y la música de “099 central”El segundo Cd del quinteto , es en el 2004 , con la original idea de fusionar las mas bellas melodias de Beatles con el Tango , es “Tangos de Liverpool ,culminando en el 2005 en el Helsinki Festival de Finlandia con dicha presentación.<br>Este Cd es destacado por la <a href=\"https://www.bbc.com/mundo/noticias/2012/10/121002_beatles_love_me_do_50_anos_homenaje_latino_jgc\">BBC de Londres entre los 10 mejores con versiones Beatles; </a>Y es pionero en fusionar el tango con otros géneros como el rock inglés.",
+        "foto3":"Durante 2010/11 , Daniel Garcia dirige musicalmente “Arrancame la vida” , el clásico de Chico Novarro y Bey Gambertes , recorriendo el país durante 2 años .<br> En 2012 Se presenta dirigiendo su quinteto TANGOLOCO en diferentes escenarios culminando la gira en el Festival de la patria grande , en Salta , ante 30.000 personas. <br>A fines de 2014  , comienza su 3era gira por Japón junto a la cantante Anna Saeki.",
+        
+        "foto4":"TANGOLOCO se presenta en la 32ª Edicion del Festival de La Falda en Julio de 2015 donde Telam destaca la agrupación como “La aplanadora del Tango” <a href=\"https://www.telam.com.ar/notas/201507/114187-tangoloco-festival-tango-la-falda.html\">(ver nota en Telam) </a>.<br> En Junio de 2016 actúa con suceso en el 1er Festival de la Ruta del Tango y en la décima edición del Festival Internacional de Medellín, Colombia en 2 funciones ,",
+        "foto5":" una  de ellas , acompañados por la voz de Raúl Lavie con su quinteto TANGOLOCO.<br>TANGOLOCO, Daniel Garcia quinteto editó 7 cds y un dvd hasta le fecha con 2 nominaciones para los premios Carlos Gardel como mejor orquesta de Tango y como Tango alternativo ( 2009 y 2014).",
+        "foto6":"En 2018/19 recorren “La ruta del Tango” y nuevamente el “Festival de la Falda” acompañando a diferentes artistas y presentándose con Tangoloco Orquesta ( integrando cuerda al 5teto) junto a Anna Saeki y Maria Jose Demare en el CCK.<br> En el 2020 Daniel Garcia relanza “Con las alas del alma” con su música y textos de Eladia Blazquez,  versión femenina , ( 12 mujeres ) y versión masculina , ( 12 hombres ) con destacados artistas del medio argentino e internacional en tiempos de pandemia, viralizándose por las redes y los medios.",
+        
+        "foto7":"En 2017 iniciaron una gira nacional con su nuevo material: “Tango Negro”. Este es su primer álbum de orquesta. Fue lanzado después de un año de trabajo, y reunió a 25 músicos, orquesta de cuerdas, metales y cantantes invitados especiales: Raul Lavié, Jorge Vazquez, Laura G.Zenko, Dany Dorf, Savia, Rubén Rada.<br>“Tango Negro” incluye los más conocidos intérpretes y autores de la música negra como Duke Ellintong, Michael Jackson, Artetha Franklin, Gloria Gaynor, Barry White, Stevie Wonder y tantos otros, fusionados con Mores, Fresedo, Troilo, Piazzolla, Canaro y Filiberto. Fue publicado por Aqcua Records en abril de 2018.<br>Se presentaron en todos los eventos del G20 realizados por Presidencia de la Nación durante febrero de 2018."
+    },
+
+    "youtube-chanel":{
+        "youtube-chanel__title":"Nuestro canal de Youtube",
+        "youtube-chanel__description": "TANGO/FUSIÓN. The Beatles fusionado con música de tango, junto a otros estilos y composiciones originales con alma de Buenos Aires."
+    },
+
+    "members":{
+        "title":"Integrantes"
+    },
+
+    "form":{
+        "title":"Contáctanos"
+    }
+
+}
