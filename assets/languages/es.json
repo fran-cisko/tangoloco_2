@@ -11,6 +11,10 @@
     "info-botton": "Más"
     },
 
+    "presentations":{
+        "upcoming-presentations": "Próximas presentaciones"
+    } ,
+
     "music":{
     "discography": "Discografía <br>",
     "youtube-channel":"Canal de Youtube"
