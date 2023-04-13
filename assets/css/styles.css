@@ -598,6 +598,17 @@ padding-top: 3.5rem;
 .experience__img-two:hover {
   transform: var(--img-scale);
 }
+.experience__video-one{
+  position: relative;
+  padding-bottom: 2rem;
+  padding-top: -1rem;
+  transition: var(--img-transition);
+}
+.experience__video-small{
+  position: relative;
+  padding-top: 12rem;
+  transition: var(--img-transition);
+}
 
 .experience__overlay {
   overflow: var(--img-hidden);
