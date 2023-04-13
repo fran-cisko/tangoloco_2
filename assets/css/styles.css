@@ -606,7 +606,7 @@ padding-top: 3.5rem;
 }
 .experience__video-small{
   position: relative;
-  padding-top: 12rem;
+  padding-right: 2rem;
   transition: var(--img-transition);
 }
 
