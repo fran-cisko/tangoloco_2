@@ -390,6 +390,7 @@ input {
 }
 
 .home__info-overlay {
+  max-height: 100px;
   overflow: var(--img-hidden);
 }
 
@@ -479,6 +480,8 @@ input {
 .about__figure--left{
   text-align: left;
 }
+
+
 /* .about__img {
   display: flex;
   column-gap: 1rem;
