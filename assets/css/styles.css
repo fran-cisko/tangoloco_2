@@ -383,6 +383,8 @@ input {
   font-size: var(--small-font-size);
   font-weight: var(--font-semi-bold);
   margin-bottom: var(--mb-0-75);
+  color: #fff;
+  
 }
 
 .home__info-button {
